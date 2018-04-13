@@ -1,17 +1,19 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.18",
+	"EngineAssociation": "{C9E84207-49D8-DDD0-54F2-6D87A94F3EF5}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "FurUE4",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "SteamVR",
 			"Enabled": false
-		},
-		{
-			"Name": "Substance",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2f6439c2f9584f49809d9b13b16c2ba4"
 		}
 	]
 }
